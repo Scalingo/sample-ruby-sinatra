@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '/' azer do 
-  erb :index
+get '/' do 
+  erb :indexxxx
 end
