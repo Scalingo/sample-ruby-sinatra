@@ -1,0 +1,9 @@
+deploy:
+  provider: scalingo
+  api_key: $SCALINGO_API_KEY
+  app: scalingo-dpl
+  edge:
+    source: EtienneM/dpl
+    branch: fix/scalingo_deployment
+  on:
+    all_branches: true
