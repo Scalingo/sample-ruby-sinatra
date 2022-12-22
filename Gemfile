@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
-ruby '2.7.4'
+ruby '3.1.3 '
 
 gem 'execjs'
 gem 'sinatra'
+gem 'thin'
+gem 'puma'
+gem 'reel'
+gem 'http'
+gem 'webrick'
